@@ -3,6 +3,9 @@
 This is a rails app that uses the [Jumpstart]( setup include 
 social media login, devise of user login and tailwindcss.
 
+## Add image here
+![example_image](app/assets/images/example_image.png)
+
 ## Getting Started
 
 To get started, clone the repo and then install the needed gems:
