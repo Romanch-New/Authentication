@@ -1,24 +1,39 @@
-# README
+# Jumpstart with Authentication and Tailwindcss
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a rails app that uses the [Jumpstart]( setup include 
+social media login, devise of user login and tailwindcss.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+To get started, clone the repo and then install the needed gems:
 
-* System dependencies
+``` git clone git@github.com:Romanch-New/Authentication.git ```
 
-* Configuration
+``` cd Authentication ```
 
-* Database creation
+``` bundle install ```
 
-* Database initialization
+Next, migrate the database:
 
-* How to run the test suite
+``` rails db:migrate ```
 
-* Services (job queues, cache servers, search engines, etc.)
+I have used sqlite3 as database. You can use any database of your choice.
 
-* Deployment instructions
+Finally, run the test suite to verify that everything is working correctly:
 
-* ...
+``` rails test ```
+
+to run the rails app: you need to install foreman gem
+
+``` gem install foreman ```
+
+then run the rails server
+
+``` foreman start ```
+
+this will start the rails server, setup tailwindcss and webpack dev server.
+I am looking to add more features to this app.
+Happy to accept PRs and suggestions.
+
+## License
+Open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
