@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
-  get '/auth/:provider/callback', to: 'sessions#create'
+
+  get '/auth/:provider', to: 'sessions#auth', as: 'auth'
+  get '/auth/:provider/callback', to: 'sessions#create', as: 'auth_callback'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

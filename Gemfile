@@ -72,5 +72,5 @@ gem "devise", "~> 4.8.0"
 gem 'omniauth'
 # gem 'omniauth-twitter'
 # gem 'omniauth-github'
-gem 'omniauth-facebook'
+# gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
